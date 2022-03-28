@@ -8,3 +8,8 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    coroutineVersion = '1.6.0'
+    roomVersion = '2.4.2'
+}
